@@ -2,9 +2,9 @@
 
 Una reference per le mie conoscenze in campo elettronico. Iniziata come riassunti dei miei appunti del corso di elettronica dei sistemi digitali, edizione del a.a. 2015-2016, tenuto da [Codeluppi Rossano](https://www.unibo.it/sitoweb/rossano.codeluppi2), ma chi lo sa cosa diventerà? 🤔
 
-[Visualizza gli appunti come sito web](https://elquero93.github.io/Elettronica-dei-Sistemi-Digitali/).
+[Visualizza gli appunti come sito web](https://elquero93.github.io/AppuntiDiElettronica/).
 
-Tutto il contenuto è rilasciato in licenza XXX nel repository GitHub :octocat: [elQuero93/Elettronica-dei-Sistemi-Digitali](https://github.com/elQuero93/Elettronica-dei-Sistemi-Digitali).
+Tutto il contenuto è rilasciato in licenza XXX nel repository GitHub :octocat: [elQuero93/AppuntiDiElettronica](https://github.com/elQuero93/AppuntiDiElettronica).
 
 Dubbi? Saluti? [Contattami!](#contatti)
 
