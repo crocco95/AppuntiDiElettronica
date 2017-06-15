@@ -4,7 +4,7 @@ Una reference per le mie conoscenze in campo elettronico. Iniziata come riassunt
 
 [Visualizza gli appunti come sito web](https://elquero93.github.io/Elettronica-dei-Sistemi-Digitali/).
 
-Tutto il contenuto è rilasciato in licenza XXX nel repository GitHub :octocat: [elQuero93/Elettronica-dei-Sistemi-Digitali](https://github.com/elQuero93/Elettronica-dei-Sistemi-Digitali).
+Tutto il contenuto è rilasciato in licenza XXX nel repository GitHub :octocat: [elQuero93/Elettronica-dei-Sistemi-Digitali](https://github.com/elQuero93/AppuntiDiElettronica).
 
 Dubbi? Saluti? [Contattami!](#contatti)
 
