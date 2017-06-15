@@ -53,7 +53,7 @@ end process process_label;
 
 Molto importante è la `sensitivity_list`: dall'esempio si vede che è una lista di segnali. Tali segnali sono **segnali di trigger** che scatenano l'esecuzione del process ogni qualvolta il valore del [segnale](vhdl.md#data-object-e-data-type) cambi.
 
-In un process possibile dichiarare:
+In un process è possibile dichiarare:
 
 - [**variables**](vhdl.md#variable): dichiarati subito dopo la dichiarazione del process;
 - **SS** o *Sequential Statement*: sono vere e proprie istruzioni algoritmiche, che sono eseguite **sequenzialmente**. Appartengono alla categoria
