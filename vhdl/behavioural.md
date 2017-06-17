@@ -53,7 +53,7 @@ end process process_label;
 
 Molto importante è la `sensitivity_list`: dall'esempio si vede che è una lista di segnali. Tali segnali sono **segnali di trigger** che scatenano l'esecuzione del process ogni qualvolta il valore del [segnale](vhdl.md#data-object-e-data-type) cambi.
 
-In un process possibile dichiarare:
+In un process è possibile dichiarare:
 
 - [**variables**](vhdl.md#variable): dichiarati subito dopo la dichiarazione del process;
 - **SS** o *Sequential Statement*: sono vere e proprie istruzioni algoritmiche, che sono eseguite **sequenzialmente**. Appartengono alla categoria
@@ -67,28 +67,28 @@ Sono la stessa cosa di costrutti condizionali algoritmici.
 
 - **if**: visibile nell'esempio del mux a bus dati da 8;
 
-- **case**
+- **case**:
 
-  ```vhdl
-  architecture my_case_arc of mux_8to1_ce is
-  begin
+    ```vhdl
+    architecture my_case_arc of mux_8to1_ce is
+    begin
     my_mux: process (SEL,Data_in,CE)
     begin
       if (CE = '1') then
-        case (SEL) is
-          when "000" => F_CTRL <= Data_in(0);
-          when "001" => F_CTRL <= Data_in(1);
-          when "010" => F_CTRL <= Data_in(2);
-          when "011" => F_CTRL <= Data_in(3);
-          when "100" => F_CTRL <= Data_in(4);
-          when "101" => F_CTRL <= Data_in(5);
-          when "110" => F_CTRL <= Data_in(6);
-          when "111" => F_CTRL <= Data_in(7);
-          when others => F_CTRL <= '0';
-        end case;
+      case (SEL) is
+        when "000" => F_CTRL <= Data_in(0);
+        when "001" => F_CTRL <= Data_in(1);
+        when "010" => F_CTRL <= Data_in(2);
+        when "011" => F_CTRL <= Data_in(3);
+        when "100" => F_CTRL <= Data_in(4);
+        when "101" => F_CTRL <= Data_in(5);
+        when "110" => F_CTRL <= Data_in(6);
+        when "111" => F_CTRL <= Data_in(7);
+        when others => F_CTRL <= '0';
+      end case;
       else
-        F_CTRL <= '0';
+      F_CTRL <= '0';
       end if;
     end process my_mux;
-  end my_case_ex;
-  ```
+    end my_case_ex;
+    ```
